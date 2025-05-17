@@ -16,7 +16,7 @@
             padding: 50;
             margin: 30px;
             border-radius: 10px;
-            height: 100%
+            height: 2055
         }
 
         /*Onde vai ficar produto, escrita, valor, e foto*/
@@ -51,7 +51,7 @@
         }
 
         /*Como a imagem vai ficar na caixa*/
-        img{
+        #fotos{
             border-radius: 20px;
             width: 300;
             height: 370;
@@ -68,29 +68,94 @@
         </style>
     </head>
     <body> 
+        
         <h1 style="padding-bottom: -2 ;">Vohiar</h1> 
+        
         <div class="fundo">
+            
             <div id="caixa">
                 <p id="item">Limpador Facial-Vohiar</p>
-                <img src="Lipa.html">
+                <img id="fotos" src="Lipa.html">
                 <button id="Valor">69,90</button>
             </div>
             <div id="caixa">
                 <p id="item">Perfume-Vohiar</p>
-                <img src="Perfuma.html">
+                <img id="fotos" src="Perfuma.html">
                 <button id="Valor">55,90</button>
             </div>
             <div id="caixa">
                 <p id="item">Esmalte-Vohiar</p>
-                <img src="Esmalte.html">
+                <img id="fotos" src="perfume.html">
                 <button id="Valor">69,99</button>
             </div>
             <div id="caixa">
                 <p id="item">Produtos Facil-Vohiar</p>
-                <img src="Produtos.html">
+                <img id="fotos" src="Produtos.html">
                 <button id="Valor">69,90</button>
             </div>
-            
+            <br>
+            <div id="caixa">
+                <p id="item">Batom-Vohiar</p>
+                <img id="fotos" src="batom.png">
+                <button id="Valor">69,90</button>
+            </div>
+            <div id="caixa">
+                <p id="item">Paleta de Sombra-Vohiar</p>
+                <img id="fotos" src="paleta.png">
+                <button id="Valor">55,90</button>
+            </div>
+            <div id="caixa">
+                <p id="item">Sabonete Facil-Vohiar</p>
+                <img id="fotos" src="sabonete.png">
+                <button id="Valor">69,99</button>
+            </div>
+            <div id="caixa">
+                <p id="item">Creme para o Rosto-Vohiar</p>
+                <img id="fotos" src="creme.png">
+                <button id="Valor">69,90</button>
+            </div>
+            <br>
+            <div id="caixa">
+                <p id="item">Esmalte-Vohiar</p>
+                <img id="fotos" src="esmalte.png">
+                <button id="Valor">69,90</button>
+            </div>
+            <div id="caixa">
+                <p id="item">Lápis Preto para Olhos-Vohiar</p>
+                <img id="fotos" src="lapis.png">
+                <button id="Valor">55,90</button>
+            </div>
+            <div id="caixa">
+                <p id="item">Condicionador-Vohiar</p>
+                <img id="fotos" src="shampoo.png">
+                <button id="Valor">69,99</button>
+            </div>
+            <div id="caixa">
+                <p id="item">Gloss Dourado-Vohiar</p>
+                <img id="fotos" src="gloss.png">
+                <button id="Valor">69,90</button>
+            </div>
+            <br>
+            <div id="caixa">
+                <p id="item">Perfume Elegante-Vohiar</p>
+                <img id="fotos" src="Perfume.png">
+                <button id="Valor">69,90</button>
+            </div>
+            <div id="caixa">
+                <p id="item">Água Micelar-Vohiar</p>
+                <img id="fotos" src="água.png">
+                <button id="Valor">55,90</button>
+            </div>
+            <div id="caixa">
+                <p id="item">Deliniador-Vohiar</p>
+                <img id="fotos" src="deliniador.png">
+                <button id="Valor">69,99</button>
+            </div>
+            <div id="caixa">
+                <p id="item">Máscara pra Cilíos-Vohiar</p>
+                <img id="fotos" src="mascara.png">
+                <button id="Valor">69,90</button>
+            </div>
         </div>
     </body>
 </html>
